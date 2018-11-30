@@ -1,0 +1,92 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+	left: 0px;
+    top: 0;
+    position: absolute;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: #e24444;
+}
+
+li.dropdown {
+	display: inline-block;
+	background-color: transparent;
+}
+
+.dropdown-content {
+	display: none;
+	position: fixed;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	background-color: #f9f9f9;
+}
+
+li a:hover:not(.active) {
+    background-color: #FF4252;
+}
+
+.active {
+background-color: #FF4252;
+}
+/* start here
+*.dropdown-submenu {
+*	position: relative;
+*}
+*
+*.dropdown-submenu > .dropdown-menu {
+*	top: 0;
+*	lefft: 100%;
+*	margin-top: -4px;
+*	margin-left: -1px;
+*	border-radius:0 6px 6px 6px;
+*}
+*
+*.dropdown-submenu:hover > .dropdown-meny {
+*	display:block;
+*}
+*
+*.dropdown-submenu>a:after {
+*	float: right;
+*	content: "►";
+*}
+*/
+<! To Use Later:
+javascript:void(0)
+Try to make a dropdown inside of a dropdown "Dropdown-ception"
+>	
